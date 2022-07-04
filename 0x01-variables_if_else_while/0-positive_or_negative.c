@@ -4,8 +4,8 @@
 
 /**
 * main -> assign a random number to the variable n each time it is executed
-* based on a condition
-* Return -> always 0
+* RAND_MAX: the number entered when calling
+* Return: always 0
 */
 int main(void)
 {
