@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha
+ * _isalph - checks for alphabetical letters
  * @c: a character to be checked on
  * Return: returns 0 or 1 depending on condition
  */
