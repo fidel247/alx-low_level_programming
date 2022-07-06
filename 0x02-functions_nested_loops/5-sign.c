@@ -5,6 +5,7 @@
  * @n: argument passed
  * Return: 1, 0, -1
  */
+
 int print_sign(int n)
 {
 	if (n > 0)
@@ -20,5 +21,6 @@ int print_sign(int n)
 	else
 	{
 		_putchar('-');
+		return(-1)
 	}
 }
