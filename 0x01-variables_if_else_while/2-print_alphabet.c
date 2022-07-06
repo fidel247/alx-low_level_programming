@@ -1,18 +1,31 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 /**
- * main -  prints the alphabet in lowercase
+ * main -  prints the last digit
  *  followed by a new line
  *  Return: always 0
  */
 int main(void)
 {
-	int ch;
-	for
-		(ch = 97; ch <= 122; ch++);
+	int n;
+	int lastn;
+	srand(time(0));
+	n = rand () - RAND_MAX / 2;
+	lastn = n % 10;
+
+	if (lastn > 5)
 	{
-		putchar(ch);
+		printf("Last digit of %d is %d and is greater than 5\n", n lastn);
 	}
-		putchar(10);
+	else if (lastn == 0)
+	{
+		printf("Last digit of %d is %d and is greater than 0\n", n lastn);
+	}
+	else
+	{
+	printf("Last digit of %d is %d and is and is less than 6 and not  0\n", n lastn);
+	}
 	return (0);
 }
