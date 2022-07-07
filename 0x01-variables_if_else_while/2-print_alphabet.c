@@ -5,11 +5,12 @@
  *  followed by a new line
  *  Return: always 0
  */
-int main (void)
+int main(void)
 {
 	char a;
+
 	for (a = 'a'; a <= 'z'; a++)
 	putchar(a);
-	putchar('\n);
+	putchar('\n');
 	return (0);
 }
