@@ -4,7 +4,7 @@
 
 /**
 * main -> print last digit
-* RAND_max: number entered when calling the function
+*
 * Return: always 0
 */
 int main(void)
