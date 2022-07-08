@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,7 +7,7 @@
  * @a: first integer
  * @b: second integer
  * @c: third integer
- * largest_number: print largest
+ * int largest_number: print largest
  * Return: largest number
  */
 
