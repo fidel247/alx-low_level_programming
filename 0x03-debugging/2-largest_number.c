@@ -7,7 +7,6 @@
  * @a: first integer
  * @b: second integer
  * @c: third integer
- * int largest_number: print largest
  * Return: largest number
  */
 
