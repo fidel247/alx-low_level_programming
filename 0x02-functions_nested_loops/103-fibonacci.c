@@ -3,7 +3,7 @@
 /**
  * main - prints the value of even fib sequence
  * not exceeding 4,000,000
- * Returnn: always 0.
+ * Return: always 0.
  */
 int main(void)
 {
