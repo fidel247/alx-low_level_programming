@@ -19,5 +19,5 @@ char leet(char *str)
 		}
 		index1++;
 	}
-	return (*str);
+	return (str);
 }
