@@ -5,7 +5,7 @@
  * _strstr - entry point
  * @haystack: input
  * needle: input
- * Return always 0 (success)
+ * Return: always 0 (success)
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -14,6 +14,7 @@ char *_strstr(char *haystack, char *needle)
 	{
 		char *one = haystack;
 		char *two = needle;
+
 		while (*one == *two && *two != '\0')
 		{
 			one++;
